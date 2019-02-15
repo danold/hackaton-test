@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.31.240.226:5000/danold/hackaton-test
+  tag: 0.0.5
   pullPolicy: IfNotPresent
 service:
   name: hackaton-test
